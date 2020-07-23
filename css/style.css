@@ -25,3 +25,29 @@ ul {
 img {
     max-width: 100%;
 }
+
+/* HEADER */
+.header {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../img/logo.png) center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff3333, #4d94ff);
+}
